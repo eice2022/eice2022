@@ -4,7 +4,7 @@ on:
   schedule: # execute every 5 hours
     - cron: "* */5 * * *"
   workflow_dispatch:
-      
+     
 jobs:
   build:
     name: Jobs to update datas
